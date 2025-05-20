@@ -10,7 +10,7 @@ import threading
 class IdeaDuplicateChecker:
     def __init__(self, root):
         self.root = root
-        self.root.title("아이디어 중복 검사기 - 효시짜")
+        self.root.title("아이디어 중복 검사기 - 이거 이미 있어")
         self.root.geometry("800x600")
         self.root.resizable(True, True)
         
@@ -44,7 +44,7 @@ class IdeaDuplicateChecker:
         
         # 타이틀
         self.title_label = ttk.Label(self.main_frame, 
-                                     text="아이디어 중복 검사기 - 효시짜", 
+                                     text="아이디어 중복 검사기 - 이거 이미 있어어", 
                                      style="Title.TLabel")
         self.title_label.pack(pady=(0, 20))
         
